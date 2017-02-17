@@ -20,8 +20,11 @@ CPU*1
 2. JDK 8  
 3. Hadoop相關元件:    
 Hadoop-2.7.2
+
 ### 安裝Virtual Box
 ---
+download
+#### [Download Virtual Box for Windows7](https://http://spark.apache.org/downloads.html)
 
 ### 安裝vagrant
 ---
