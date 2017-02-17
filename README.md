@@ -21,19 +21,29 @@ CPU*1
 3. Hadoop相關元件:    
 Hadoop-2.7.2
 
-### 安裝Virtual Box(5.1.14)
+### 下載及安裝Virtual Box(5.1.14)
 ---
 [Download Virtual Box for Windows7](http://download.virtualbox.org/virtualbox/5.1.14/VirtualBox-5.1.14-112924-Win.exe)  
 執行安裝程式安裝Virtual Box
 
-### 安裝vagrant(1.9.1)
+### 下載及安裝配置vagrant(1.9.1)
 ---
-[Download vagrant for Windows7](https://releases.hashicorp.com/vagrant/1.9.1/vagrant_1.9.1.msi)  
-執行安裝程式安裝vagrant
+1. [Download vagrant for Windows7](https://releases.hashicorp.com/vagrant/1.9.1/vagrant_1.9.1.msi)  
+2. 執行安裝程式安裝vagrant
 
+3. vagrant box 下載途徑有兩種
 ```
-vagrant box add ubuntu/precise64 
+##vagrant box 下載途徑有兩種
+vagrant box add ubuntu/precise64(預設 https://atlas.hashicorp.com/)
+vagrant box add precise64 http://files.vagrantup.com/precise64.box
+
+##vagrant box 列表
+vagrant box list
+
+##刪除box
+vagrant box remove precise64
 ```
+
 ### 安裝github
 ---
 
