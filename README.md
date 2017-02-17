@@ -23,7 +23,7 @@ Hadoop-2.7.2
 
 ### 安裝Virtual Box
 ---
-[Download Virtual Box for Windows7](www.virtualbox.org/wiki/Downloads)
+[Download Virtual Box for Windows7](http://www.virtualbox.org/wiki/Downloads)
 執行安裝程式安裝Virtual Box
 
 ### 安裝vagrant
