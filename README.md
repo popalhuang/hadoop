@@ -1,1 +1,1 @@
-﻿##�ϥ�vagrant�إ�hadoop cluster
+﻿中文測試
