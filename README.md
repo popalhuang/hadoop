@@ -28,11 +28,15 @@ Hadoop-2.7.2
 
 ### 安裝vagrant(1.9.1)
 ---
-[Download vagrant for Windows7](https://releases.hashicorp.com/vagrant/1.9.1/vagrant_1.9.1.msi)
+[Download vagrant for Windows7](https://releases.hashicorp.com/vagrant/1.9.1/vagrant_1.9.1.msi)  
 執行安裝程式安裝vagrant
 
+```
+vagrant box add ubuntu/precise64 
+```
 ### 安裝github
 ---
+
 ### clone GitHub
 ---
 ### vagrant 
