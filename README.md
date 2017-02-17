@@ -3,8 +3,8 @@
 ---
 #### namenode\*1:  
 1. OS:Ubuntu 16.04 for server 64bit  
-* Memory:3500M
-* CPU*1  
+Memory:3500M  
+CPU*1   
 2. JDK 8  
 3. Hadoop相關元件:    
 Hadoop-2.7.2  
