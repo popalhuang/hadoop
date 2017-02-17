@@ -11,7 +11,8 @@ Hadoop-2.7.2
 Spark-2.0.0   
 Hive-2.1.0   
 OOZIE-4.3.0  
-MariaDB-10.1     
+MariaDB-10.1
+  
 #### datanode\*2:  
 1. OS:Ubuntu 16.04 for server 64bit  
 Memory:3500M  
