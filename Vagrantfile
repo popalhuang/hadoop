@@ -14,7 +14,7 @@ Vagrant.configure("2") do |config|
   #define data1 server
   config.vm.define "slave1" do |slave1|
     slave1.vm.hostname = "hadoop-slave1"
-    slave1.vm.box = "gbarbieru/xenial"
+    slave1.vm.box = "ubuntu/yakkety64"
 	slave1.vm.synced_folder ".", "/home/vagrant/src", mount_options: ["dmode=775,fmode=664"]
     slave1.vm.network "private_network", ip: DN1_IP
     slave1.vm.provider "virtualbox" do |v|
@@ -28,7 +28,7 @@ Vagrant.configure("2") do |config|
   #define data2 server
   config.vm.define "slave2" do |slave2|
     slave2.vm.hostname = "hadoop-slave2"
-    slave2.vm.box = "gbarbieru/xenial"
+    slave2.vm.box = "ubuntu/yakkety64"
   	slave2.vm.synced_folder ".", "/home/vagrant/src", mount_options: ["dmode=775,fmode=664"]
     slave2.vm.network "private_network", ip: DN2_IP
     slave2.vm.provider "virtualbox" do |v|
@@ -42,7 +42,7 @@ Vagrant.configure("2") do |config|
   #define Master server
   config.vm.define "master" do |master|
     master.vm.hostname = "hadoop-master"
-    master.vm.box = "gbarbieru/xenial"
+    master.vm.box = "ubuntu/yakkety64"
     master.vm.synced_folder ".", "/home/vagrant/src", mount_options: ["dmode=775,fmode=664"]
     master.vm.network "private_network", ip: MASTER_IP
     master.vm.provider "virtualbox" do |v|
