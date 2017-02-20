@@ -49,7 +49,10 @@ cd work
 git clone https://popalhuang@github.com/popalhuang/hadoop.git
 cd hadoop
 ```  
-5. 啟動vagrant
+5. 啟動,關機,重啟 VM
 ```
-vagrant up
+vagrant up			##啟動all VMs
+vagrant halt		##關閉all VMs
+vagrant reload		##重啟所有VMs(先執行vagrant halt->vagrant up)
+vagrant up master	##啟動單一個VM
 ```  
