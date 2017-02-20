@@ -1,4 +1,4 @@
-﻿##使用vagrant建立Hadoop cluster環境(自己的Lab環境自己做)
+﻿##自己的Lab環境自己裝-使用vagrant建立Hadoop cluster環境
 ### Hadoop cluster環境說明
 ---
 #### namenode\*1:  
