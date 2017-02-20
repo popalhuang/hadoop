@@ -42,14 +42,14 @@ vagrant box list
 ##刪除box
 vagrant box remove precise64
 ```  
-4. vagrant init 初始化(其實就是一個產生Vagrantfile的步驟),如果原本就有這個檔案的話可以直接修改後使用就不需要執行vagrant init指令
+* vagrant init 初始化(其實就是一個產生Vagrantfile的步驟),如果原本就有這個檔案的話可以直接修改後使用就不需要執行vagrant init指令
 ```
 mkdir work
 cd work
 git clone https://popalhuang@github.com/popalhuang/hadoop.git
 cd hadoop
 ```  
-5. 啟動,關機,重啟 VM
+* 啟動,關機,重啟 VM
 ```
 vagrant up			##啟動all VMs
 vagrant halt		##關閉all VMs
