@@ -1,8 +1,8 @@
-﻿##使用vagrant建立Hadoop cluster環境
+﻿##使用vagrant建立Hadoop cluster環境(自己的Lab環境自己做)
 ### Hadoop cluster環境說明
 ---
 #### namenode\*1:  
-1. OS:Ubuntu 16.04 for server 64bit  
+1. OS:Ubuntu 16.10 for server 64bit  
 Memory:3500M  
 CPU*1   
 2. JDK 8  
